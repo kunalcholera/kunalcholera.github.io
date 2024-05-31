@@ -4,24 +4,11 @@ title: About
 permalink: /about/
 ---
 
-<style>
-table, td, th {
-   border: none!important;
-}
-</style>
 
-<table>
-<tr>
-<td>
-<img src="/assets/images/kunal-profile-pic.jpeg" alt="Kunal's profile picture" width="250" height="200">
-</td>
-<td>
-Welcome! Checkout latest videos at my <a href="https://www.youtube.com/@KunalCholera/">youtube channel</a>. You can find more about me in my CV is below.
+<img src="/assets/images/kunal-profile-pic.jpeg" alt="Kunal's profile" style="float:left;width:250px;height:250px;margin-right: 30px;"/>
 
-
-</td>
-</tr>
-</table>
+<p> Welcome! Checkout latest videos at my <a href="https://www.youtube.com/@KunalCholera/">youtube channel</a>. You can find more about me in my CV is below.
+</p> 
 
 
 
