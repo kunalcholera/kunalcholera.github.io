@@ -7,7 +7,7 @@ permalink: /about/
 
 <img src="/assets/images/kunal-profile-pic.jpeg" alt="Kunal's profile" style="float:left;width:250px;height:250px;margin-right: 30px;"/>
 
-<p> Welcome! Checkout latest videos at my <a href="https://www.youtube.com/@KunalCholera/">youtube channel</a>. You can find more about me in my CV is below.
+<p> Welcome! Checkout latest videos at my <a href="https://www.youtube.com/@KunalCholera/" target="_blank">youtube channel</a>. My faculty profile <a href="https://haas.berkeley.edu/faculty/kunal-cholera/" target="_blank">page is here</a> and my CV is below.
 </p> 
 
 
