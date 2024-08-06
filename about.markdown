@@ -15,7 +15,21 @@ permalink: /about/
 <p> Classes I am teaching can be found <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a></p>
 
 
+<style>
+    .content {
+        overflow: hidden; /* Clears the float */
+    }
+</style>
 
+<br class="content"/>
 
+<div> <b>Recent Awards: </b><br/>
+Cheit Award for Excellence in Teaching (GSI) - Undergraduate MBA program - 2024 <br/>
+Cheit Award for Excellence in Teaching (GSI) - Executive MBA program - 2023 <br/>
+"Student Always" Berkeley Defining Leadership Principles Award - 2022 <br/>
+Poets and Quants for Execs - Best & Brightest Executive MBA - 2022 <br/><br/>
+</div>
 
-
+<div class="content"> <b>Currently:</b><br/>
+I am teaching Data and decisions using python, Game theory (Strategy) & Leadership communication to Undergraduate and Graduate programs at Berkeley HAAS school of Business.
+</div>
