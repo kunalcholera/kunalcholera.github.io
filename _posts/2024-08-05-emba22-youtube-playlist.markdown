@@ -5,7 +5,7 @@ date: 2024-08-05 10:00:00 +0000
 categories: [MBA, HAAS]
 ---
 
-## Here are few topics I have summarized and the short link to them.
+## Class summaries for few areas below
 
 | Class        | Link                |
 |-------------|------------------------|
