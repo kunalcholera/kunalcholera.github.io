@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Slides
+title: Public Slides
 permalink: /slides/
 ---
-## Public slides
 
 Clean Code by Robert Martin - [Slides](https://drive.google.com/drive/u/0/folders/1F8mNLHR4t75s5CayrWriUdSt7GSXMdAp) 
 
