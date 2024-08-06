@@ -29,6 +29,6 @@ Cheit Award for Excellence in Teaching (GSI) - Executive MBA program - 2023 <br/
 Poets and Quants for Execs - Best & Brightest Executive MBA - 2022 <br/><br/>
 </div>
 
-<div class="content"> <b>Currently: </b><br/>
+<div class="content"> <b>Current Work: </b><br/>
 I am teaching Data and decisions using Python, Game theory (Strategy) & Leadership Communication to Undergraduate and Graduate programs at HAAS School of Business at Berkeley. More details about classes that I am teaching can be found <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a>
 </div>
