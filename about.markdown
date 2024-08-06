@@ -31,5 +31,5 @@ Poets and Quants for Execs - Best & Brightest Executive MBA - 2022 <br/><br/>
 </div>
 
 <div class="content"> <b>Currently:</b><br/>
-I am teaching Data and decisions using python, Game theory (Strategy) & Leadership communication to Undergraduate and Graduate programs at Berkeley HAAS school of Business.
+I am teaching Data and decisions using Python, Game theory (Strategy) & Leadership Communication to Undergraduate and Graduate programs at HAAS School of Business at Berkeley.
 </div>
