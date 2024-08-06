@@ -1,3 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-04T17:48:34-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kunal Cholera</title><entry><title type="html">Designing Data Intesive Applications Video Summaries</title><link href="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html" rel="alternate" type="text/html" title="Designing Data Intesive Applications Video Summaries" /><published>2024-05-25T11:34:57-07:00</published><updated>2024-05-25T11:34:57-07:00</updated><id>http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries</id><content type="html" xml:base="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html"><![CDATA[<p>Check out the summaries of all the chapters from Designing Data Intensive Applications by <strong>Martin Kleppmann</strong>. I hope you like it!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-05T22:34:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kunal Cholera Home page</title><entry><title type="html">EMBA22 Youtube videos by Kunal</title><link href="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html" rel="alternate" type="text/html" title="EMBA22 Youtube videos by Kunal" /><published>2024-08-05T03:00:00-07:00</published><updated>2024-08-05T03:00:00-07:00</updated><id>http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist</id><content type="html" xml:base="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html"><![CDATA[<h2 id="here-are-few-topics-i-have-summarized-and-the-short-link-to-them">Here are few topics I have summarized and the short link to them.</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Macro</td>
+      <td><a href="https://www.youtube.com/watch?v=ZkhJG-DscQY&amp;list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2&amp;index=34">Youtube</a></td>
+    </tr>
+    <tr>
+      <td>Strategy</td>
+      <td><a href="https://www.youtube.com/watch?v=juLrfvXbGcQ&amp;list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2&amp;index=58">Youtube</a></td>
+    </tr>
+    <tr>
+      <td>Micro</td>
+      <td><a href="https://www.youtube.com/watch?v=BAuO9E0tZvw&amp;list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2&amp;index=66">Youtube</a></td>
+    </tr>
+    <tr>
+      <td>Corporate Finance</td>
+      <td><a href="https://www.youtube.com/watch?v=4IrEBsZSnj4&amp;list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2&amp;index=72">Youtube</a></td>
+    </tr>
+    <tr>
+      <td>Data and Decisions</td>
+      <td><a href="https://www.youtube.com/watch?v=02xpk1_4hmI&amp;list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2&amp;index=96">Youtube</a></td>
+    </tr>
+    <tr>
+      <td>Game Theory</td>
+      <td><a href="https://www.youtube.com/watch?v=UtUX9acBlKI&amp;list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2&amp;index=110">Youtube</a></td>
+    </tr>
+    <tr>
+      <td>Leadership communication</td>
+      <td><a href="https://www.youtube.com/watch?v=R_ErYygoRyY&amp;list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2&amp;index=9">Youtube</a></td>
+    </tr>
+    <tr>
+      <td>Entire playlist</td>
+      <td><a href="https://www.youtube.com/playlist?list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2">Youtube</a></td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><category term="MBA" /><category term="HAAS" /><summary type="html"><![CDATA[Here are few topics I have summarized and the short link to them.]]></summary></entry><entry><title type="html">Designing Data Intesive Applications Video Summaries</title><link href="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html" rel="alternate" type="text/html" title="Designing Data Intesive Applications Video Summaries" /><published>2024-05-25T11:34:57-07:00</published><updated>2024-05-25T11:34:57-07:00</updated><id>http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries</id><content type="html" xml:base="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html"><![CDATA[<p>Check out the summaries of all the chapters from Designing Data Intensive Applications by <strong>Martin Kleppmann</strong>. I hope you like it!</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PdtlXdse7pw?si=u9ej2Wgo7xVOIq_i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name></name></author><category term="software" /><summary type="html"><![CDATA[Check out the summaries of all the chapters from Designing Data Intensive Applications by Martin Kleppmann. I hope you like it!]]></summary></entry></feed>
