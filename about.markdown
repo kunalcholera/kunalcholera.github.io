@@ -5,12 +5,14 @@ permalink: /about/
 ---
 
 
-<img src="/assets/images/kunal-profile-pic.jpeg" alt="Kunal's profile" style="float:left;width:250px;height:250px;margin-right: 30px;"/>
+<img src="/assets/images/kunal-profile-pic.jpeg" alt="Kunal's profile" style="float:right;width:220px;height:220px;margin: 15px;"/>
 
-Kunal has over 15 years of experience building high scale consumer and multi-billion dollar enterprise technology solutions. Kunal teaches at HAAS School of Business at UC Berkeley in the following three areas of his expertise:
-<p> <b>1. Data and Decisions</b> - Using Experimentation for product development and using AI - Descriptive, Predictive and Prescriptive data analytics for real life use cases. Data tech planning - strategy, pipelines, tracking, tools, governance, ethics and bias. </p> 
-<p> <b>2. Leadership Communications</b> - Art and Science of delivering a persuasive presentation through storytelling. </p> 
-<p> <b>3. High output management </b> - Building and delivering complex products by building effective teams and managers. Learning how to influence, resolve conflicts, anticipate and manage risk and finally navigating power, politics and people in small and large organizations.   </p> 
+Kunal has over 15 years of experience building high scale consumer and multi-billion dollar enterprise technology solutions. Kunal is a software engineer by training and has MS in Computer Science and has built high performing teams across different countries. 
+<p>
+Kunal currently teaches at HAAS School of Business at UC Berkeley in the following three areas of his expertise:
+<p> <b>1. Data and Decisions</b> - Using Experimentation for product development and using the power of AI - Descriptive, Predictive and Prescriptive data analytics for real life use cases. Building data strategy, data pipelines, data tracking, data tools, data governance, data ethics and bias. </p> 
+<p> <b>2. Leadership Communications</b> - Art and Science of delivering a persuasive presentation through storytelling. Provide coaching for powerpoint design, delivery, engagement and landing the message effectively. </p> 
+<p> <b>3. High output management </b> - Working effectively in a team, building TRUST with your team members, delivering complex products with effective teams and managers. Learning how to influence, resolve conflicts, anticipate and manage risk and finally navigating power, politics and people in small and large organizations.   </p> 
 <br/>
 
 <style>
