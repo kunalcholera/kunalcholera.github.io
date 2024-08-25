@@ -61,3 +61,14 @@ Chapter 11 Summary - Stream processing
 
 Chapter 12 Summary - Future of Data Systems
 <iframe class="youtube-video" src="https://www.youtube.com/embed/wLj7A4A3OqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16681818396"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16681818396');
+</script>
