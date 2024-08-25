@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-22T18:12:58-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kunal Cholera</title><entry><title type="html">EMBA22 Youtube videos by Kunal</title><link href="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html" rel="alternate" type="text/html" title="EMBA22 Youtube videos by Kunal" /><published>2024-08-05T03:00:00-07:00</published><updated>2024-08-05T03:00:00-07:00</updated><id>http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist</id><content type="html" xml:base="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html"><![CDATA[<h2 id="class-summaries-for-few-areas-below">Class summaries for few areas below</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-24T18:30:44-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kunal Cholera</title><entry><title type="html">EMBA22 Youtube videos by Kunal</title><link href="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html" rel="alternate" type="text/html" title="EMBA22 Youtube videos by Kunal" /><published>2024-08-05T03:00:00-07:00</published><updated>2024-08-05T03:00:00-07:00</updated><id>http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist</id><content type="html" xml:base="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html"><![CDATA[<h2 id="class-summaries-for-few-areas-below">Class summaries for few areas below</h2>
 
 <table>
   <thead>
@@ -41,6 +41,47 @@
       <td><a href="https://www.youtube.com/playlist?list=PL4KdJM8LzAMcRtgO4ONqbX0Fgl49oUgz2">Youtube</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name></name></author><category term="MBA" /><category term="HAAS" /><summary type="html"><![CDATA[Class summaries for few areas below]]></summary></entry><entry><title type="html">Designing Data Intesive Applications Video Summaries</title><link href="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html" rel="alternate" type="text/html" title="Designing Data Intesive Applications Video Summaries" /><published>2024-05-25T11:34:57-07:00</published><updated>2024-05-25T11:34:57-07:00</updated><id>http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries</id><content type="html" xml:base="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html"><![CDATA[<p>Check out the summaries of all the chapters from Designing Data Intensive Applications by <strong>Martin Kleppmann</strong>. I hope you like it!</p>
+</table>]]></content><author><name></name></author><category term="MBA" /><category term="HAAS" /><summary type="html"><![CDATA[Class summaries for few areas below]]></summary></entry><entry><title type="html">Designing Data Intesive Applications Video Summaries</title><link href="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html" rel="alternate" type="text/html" title="Designing Data Intesive Applications Video Summaries" /><published>2024-05-25T11:34:57-07:00</published><updated>2024-05-25T11:34:57-07:00</updated><id>http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries</id><content type="html" xml:base="http://localhost:4000/software/2024/05/25/designing-data-intensive-applications-video-summaries.html"><![CDATA[<style>
+   .youtube-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    } 
+</style>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PdtlXdse7pw?si=u9ej2Wgo7xVOIq_i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name></name></author><category term="software" /><summary type="html"><![CDATA[Check out the summaries of all the chapters from Designing Data Intensive Applications by Martin Kleppmann. I hope you like it!]]></summary></entry></feed>
+<p>Check out the summaries of all the chapters from Designing Data Intensive Applications by <strong>Martin Kleppmann</strong>. I hope you like it and if you do please support Martin and buy his book, it has way more then what I summarize here!</p>
+
+<p>Chapter 1 summary - Reliable Scalable Maintainable</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/PdtlXdse7pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 2 Summary - Data Models</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/X-9R-DdDFrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 3 Summary - Storage and Retrieval</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/CLMfk_n8exA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 4 Summary - Agile code evolution and data encoding</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/W5cWSNZY3l8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 5 Summary - Replication</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/8-dJt2t1vH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 6 Summary - Partioning</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/YvRm6HVEJEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 7 Summary - Transactions</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/MCx2j2lHxFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 8 Summary - Troubles with Distributed Systems</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/oWKe5LL_f1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 9 Summary - Consistency and Consensus</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/yIvft09RTAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 10 Summary - Batch processing</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/zpDAqwQDrkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 11 Summary - Stream processing</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/XiQNLGRAzss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Chapter 12 Summary - Future of Data Systems</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/wLj7A4A3OqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name></name></author><category term="software" /><summary type="html"><![CDATA[]]></summary></entry></feed>
