@@ -1,5 +1,8 @@
-# kunalcholera.github.io
-5/17/24 - site is in construction ..
+# kunalcholera.github.io common commands :)
 
-local server - bundle exec jekyll serve 
-http://127.0.0.1:4000/
+
+# start the local server - and navigate to http://127.0.0.1:4000/
+bundle exec jekyll serve 
+
+# create a new jekyll post
+bundle exec jekyll post "My new post title"  
