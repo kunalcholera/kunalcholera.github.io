@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Python data analysis functions summary (draft) | Blog</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Python data analysis functions summary (draft)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Pandas Read a CSV file using pandas into a dataframe import pandas as pd df = pd.read_csv(‘data-file.csv’) This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object. A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities." />
+<meta property="og:description" content="Pandas Read a CSV file using pandas into a dataframe import pandas as pd df = pd.read_csv(‘data-file.csv’) This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object. A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities." />
+<link rel="canonical" href="http://localhost:4000/2024/10/07/python-function-summary.html" />
+<meta property="og:url" content="http://localhost:4000/2024/10/07/python-function-summary.html" />
+<meta property="og:site_name" content="Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-10-07T20:53:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Python data analysis functions summary (draft)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-07T20:53:00-07:00","datePublished":"2024-10-07T20:53:00-07:00","description":"Pandas Read a CSV file using pandas into a dataframe import pandas as pd df = pd.read_csv(‘data-file.csv’) This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object. A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities.","headline":"Python data analysis functions summary (draft)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/10/07/python-function-summary.html"},"url":"http://localhost:4000/2024/10/07/python-function-summary.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Kunal Cholera</a><a class="page-link" href="/slides/">Public Slides</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Python data analysis functions summary (draft)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-10-07T20:53:00-07:00" itemprop="datePublished">Oct 7, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="pandas">Pandas</h2>
+<h3 id="read-a-csv-file-using-pandas-into-a-dataframe">Read a CSV file using pandas into a dataframe</h3>
+<pre><code class="language-Python3">import pandas as pd
+df = pd.read_csv(‘data-file.csv’) 
+</code></pre>
+<p>This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object.
+A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities.</p>
+
+<h3 id="check-how-many-null-values-you-have-in-your-dataframe-and-drop">Check how many null values you have in your dataframe and drop</h3>
+<pre><code class="language-Python3">df.isnull().sum()
+</code></pre>
+<p>This method isnull() looks through all the rows and columns in your dataframe (df object) and returns True if null and False if not null .sum() will add up all the Null values for each columns in your dataframe.</p>
+
+<h3 id="drop-rows-with-one-ore-more-null-values">Drop rows with one ore more null values</h3>
+<pre><code class="language-Python3">df = df.dropna()
+</code></pre>
+<p>By default, dropna() will drop any row that has at least one null value in any column.</p>
+
+<h3 id="create-histograms">Create histograms</h3>
+<pre><code class="language-Python3">plt.hist(df['column_you_are_interested_in'])
+</code></pre>
+<p>The plt.hist() function in Matplotlib is used to create histograms, it takes in dataframe an array-like object containing the values to be plotted, you can pass in a column of data to it for example..</p>
+
+<h3>..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-1">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-2">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-3">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-4">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-5">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-6">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+  </div><a class="u-url" href="/2024/10/07/python-function-summary.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+  
+    <div class="wrapper">
+  
+      <!--
+      <h2 class="footer-heading">Blog</h2>
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">Blog</li></ul>
+        </div>
+  
+        <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+  
+        <div class="footer-col footer-col-3">
+          <p></p>
+        </div>
+      -->
+      </div>
+      
+  
+    </div>
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMWPCCG6JT"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KMWPCCG6JT');
+    </script>
+  </footer>
+  </body>
+
+</html>

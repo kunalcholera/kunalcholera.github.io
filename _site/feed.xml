@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-22T15:54:52-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><entry><title type="html">DDOF - Delta Degrees of Freedom</title><link href="http://localhost:4000/2024/09/22/ddof.html" rel="alternate" type="text/html" title="DDOF - Delta Degrees of Freedom" /><published>2024-09-22T15:40:00-07:00</published><updated>2024-09-22T15:40:00-07:00</updated><id>http://localhost:4000/2024/09/22/ddof</id><content type="html" xml:base="http://localhost:4000/2024/09/22/ddof.html"><![CDATA[<p>Bessel’s correction - Delta Degrees of Freedom ddof=1 or using n-1 - why do we use n-1 ?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-07T21:12:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><entry><title type="html">Python data analysis functions summary (draft)</title><link href="http://localhost:4000/2024/10/07/python-function-summary.html" rel="alternate" type="text/html" title="Python data analysis functions summary (draft)" /><published>2024-10-07T20:53:00-07:00</published><updated>2024-10-07T20:53:00-07:00</updated><id>http://localhost:4000/2024/10/07/python-function-summary</id><content type="html" xml:base="http://localhost:4000/2024/10/07/python-function-summary.html"><![CDATA[<h2 id="pandas">Pandas</h2>
+<h3 id="read-a-csv-file-using-pandas-into-a-dataframe">Read a CSV file using pandas into a dataframe</h3>
+<pre><code class="language-Python3">import pandas as pd
+df = pd.read_csv(‘data-file.csv’) 
+</code></pre>
+<p>This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object.
+A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities.</p>
+
+<h3 id="check-how-many-null-values-you-have-in-your-dataframe-and-drop">Check how many null values you have in your dataframe and drop</h3>
+<pre><code class="language-Python3">df.isnull().sum()
+</code></pre>
+<p>This method isnull() looks through all the rows and columns in your dataframe (df object) and returns True if null and False if not null .sum() will add up all the Null values for each columns in your dataframe.</p>
+
+<h3 id="drop-rows-with-one-ore-more-null-values">Drop rows with one ore more null values</h3>
+<pre><code class="language-Python3">df = df.dropna()
+</code></pre>
+<p>By default, dropna() will drop any row that has at least one null value in any column.</p>
+
+<h3 id="create-histograms">Create histograms</h3>
+<pre><code class="language-Python3">plt.hist(df['column_you_are_interested_in'])
+</code></pre>
+<p>The plt.hist() function in Matplotlib is used to create histograms, it takes in dataframe an array-like object containing the values to be plotted, you can pass in a column of data to it for example..</p>
+
+<h3>..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-1">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-2">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-3">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-4">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-5">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>
+
+<h3 id="-6">..</h3>
+<pre><code class="language-Python3">..
+</code></pre>
+<p>..</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Pandas Read a CSV file using pandas into a dataframe import pandas as pd df = pd.read_csv(‘data-file.csv’) This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object. A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities.]]></summary></entry><entry><title type="html">DDOF - Delta Degrees of Freedom</title><link href="http://localhost:4000/2024/09/22/ddof.html" rel="alternate" type="text/html" title="DDOF - Delta Degrees of Freedom" /><published>2024-09-22T15:40:00-07:00</published><updated>2024-09-22T15:40:00-07:00</updated><id>http://localhost:4000/2024/09/22/ddof</id><content type="html" xml:base="http://localhost:4000/2024/09/22/ddof.html"><![CDATA[<p>Bessel’s correction - Delta Degrees of Freedom ddof=1 or using n-1 - why do we use n-1 ?</p>
 
 <p>Numpy assume DDOF = 0 as default.
 Pandas assume DDOF = 1 as default.</p>
