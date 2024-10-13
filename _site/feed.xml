@@ -1,60 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-07T21:12:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><entry><title type="html">Python data analysis functions summary (draft)</title><link href="http://localhost:4000/2024/10/07/python-function-summary.html" rel="alternate" type="text/html" title="Python data analysis functions summary (draft)" /><published>2024-10-07T20:53:00-07:00</published><updated>2024-10-07T20:53:00-07:00</updated><id>http://localhost:4000/2024/10/07/python-function-summary</id><content type="html" xml:base="http://localhost:4000/2024/10/07/python-function-summary.html"><![CDATA[<h2 id="pandas">Pandas</h2>
-<h3 id="read-a-csv-file-using-pandas-into-a-dataframe">Read a CSV file using pandas into a dataframe</h3>
-<pre><code class="language-Python3">import pandas as pd
-df = pd.read_csv(‘data-file.csv’) 
-</code></pre>
-<p>This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object.
-A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-12T17:55:28-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><entry><title type="html">Pandas reference sheet - UGBA-88</title><link href="http://localhost:4000/2024/10/07/python-function-summary.html" rel="alternate" type="text/html" title="Pandas reference sheet - UGBA-88" /><published>2024-10-07T20:53:00-07:00</published><updated>2024-10-07T20:53:00-07:00</updated><id>http://localhost:4000/2024/10/07/python-function-summary</id><content type="html" xml:base="http://localhost:4000/2024/10/07/python-function-summary.html"><![CDATA[<p>We are using these alias in the reference sheet below</p>
 
-<h3 id="check-how-many-null-values-you-have-in-your-dataframe-and-drop">Check how many null values you have in your dataframe and drop</h3>
+<pre><code class="language-Python3">import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+</code></pre>
+
+<h1 id="index">Index</h1>
+<ul>
+  <li><a href="#1">pd.read_csv(‘data-file.csv’)</a></li>
+  <li><a href="#2">df.isnull().sum()</a></li>
+  <li><a href="#3">df = df.dropna()</a></li>
+  <li><a href="#4">plt.hist(df[‘column_name’])</a></li>
+  <li><a href="#5">df.shape</a></li>
+  <li><a href="#6">df.columns</a></li>
+  <li><a href="#7">len(df)</a></li>
+  <li><a href="#8">df.dtypes</a></li>
+  <li><a href="#9">sns.barplot(data=df[‘Make’].value_counts(), orient=’h’)</a></li>
+  <li><a href="#10">plt.figure(figsize=(15,10))</a></li>
+  <li><a href="#11">plt.show()</a></li>
+  <li><a href="#12">df[[‘X’, ‘Y’]].corr()</a></li>
+  <li><a href="#13">plt.pie(category_counts, labels=category_counts.index, autopct=’%1.1f%%’)</a></li>
+  <li><a href="#Z">…</a></li>
+  <li><a href="#Z">…</a></li>
+</ul>
+
+<h2 id="1">1</h2>
+<pre><code class="language-Python3">pd.read_csv(‘data-file.csv’)
+</code></pre>
+<h1 id="read-a-csv-file-using-pandas-into-a-dataframe">Read a CSV file using pandas into a DataFrame</h1>
+<p>Read a CSV file using pandas into a DataFrame| This method read_csv() reads the data-file.csv using pandas (pd) and returns a DataFrame object. A DataFrame object is similar to table with rows and columns but with lot more advanced data analysis and capabilities.It takes in the input the name of csv file in either single quotes or double quotes and returns output as DataFrame object (df)</p>
+
+<h2 id="2">2</h2>
 <pre><code class="language-Python3">df.isnull().sum()
 </code></pre>
-<p>This method isnull() looks through all the rows and columns in your dataframe (df object) and returns True if null and False if not null .sum() will add up all the Null values for each columns in your dataframe.</p>
+<h1 id="count-null-values-for-every-column-and-show-total-null-values-per-column">Count null values for every column and show total null values per column</h1>
+<p>Count number of missing values. This method isnull() looks through all the rows and columns in your DataFrame object (df) where there is value missing (null, NaN or NAN) and returns True if there is a missing value and False if not missing .sum() will add up all the missing True values for each columns and rows in your DataFrame. Input is the df object and output is the column name and the count of all null values in that column. If you do df.isnull().sum().sum() you get the total count of all missing (null) values.</p>
 
-<h3 id="drop-rows-with-one-ore-more-null-values">Drop rows with one ore more null values</h3>
+<h2 id="3">3</h2>
 <pre><code class="language-Python3">df = df.dropna()
 </code></pre>
+<h1 id="drop-rows-with-one-or-more-null-values">Drop rows with one or more null values</h1>
 <p>By default, dropna() will drop any row that has at least one null value in any column.</p>
 
-<h3 id="create-histograms">Create histograms</h3>
-<pre><code class="language-Python3">plt.hist(df['column_you_are_interested_in'])
+<h2 id="4">4</h2>
+<pre><code class="language-Python3">plt.hist(df['column_name'])
 </code></pre>
-<p>The plt.hist() function in Matplotlib is used to create histograms, it takes in dataframe an array-like object containing the values to be plotted, you can pass in a column of data to it for example..</p>
+<h1 id="create-a-histogram-plot">Create a histogram plot</h1>
+<p>The plt.hist() function in Matplotlib is used to create histograms, it takes in DataFrame an array-like object containing the values to be plotted, you can pass in a name of your column you want to plot the data in the ‘column_name’.</p>
 
-<h3>..</h3>
+<h2 id="5">5</h2>
+<pre><code class="language-Python3">df.shape
+</code></pre>
+<h1 id="returns-the-dimensions-rows-columns-of-the-dataframe">Returns the dimensions (rows, columns) of the DataFrame</h1>
+<p>df.shape returns the dimensions of a DataFrame as a tuple. It provides two values: (The number of rows, The number of columns)</p>
+
+<h2 id="6">6</h2>
+<pre><code class="language-Python3">df.columns
+</code></pre>
+<h1 id="shows-all-the-columns-you-have-in-your-dataframe">Shows all the columns you have in your DataFrame</h1>
+<p>df.columns returns an Index object containing the column labels of a DataFrame. This allows you to see the names of all the columns in the DataFrame.</p>
+
+<h2 id="7">7</h2>
+<pre><code class="language-Python3">len(df)
+</code></pre>
+<h1 id="count-the-number-of-rows-you-have-in-your-dataframe">Count the number of rows you have in your DataFrame</h1>
+<p>len(df) returns the number of rows in a DataFrame. It provides a quick way to determine how many records or observations are present.</p>
+
+<h2 id="8">8</h2>
+<pre><code class="language-Python3">df.dtypes
+</code></pre>
+<h1 id="display-data-type-of-each-column-in-dataframe">Display data type of each column in DataFrame</h1>
+<p>df.dtypes returns a Series with the data types of each column in a DataFrame. This is useful for understanding the types of data you are working with, such as integers, floats, or objects (strings).</p>
+
+<h2 id="9">9</h2>
+<pre><code class="language-Python3">sns.barplot(data=df['Make'].value_counts(), orient='h')
+</code></pre>
+<h1 id="draws-a-horizontal-bar-plot-using-seaborn-library">Draws a horizontal bar plot using Seaborn library</h1>
+<p><code class="language-plaintext highlighter-rouge">sns.barplot(data=df['Make'].value_counts(), orient='h')</code> uses the Seaborn library to create a horizontal bar plot. Here’s a breakdown of what it does: <code class="language-plaintext highlighter-rouge">df['Make'].value_counts()</code>: This counts the occurrences of each unique value in the ‘Make’ column of the DataFrame df.<code class="language-plaintext highlighter-rouge">sns.barplot(...)</code>: This creates a bar plot based on the counts, with the counts on the x-axis (since orient=’h’ specifies a horizontal orientation).</p>
+
+<h2 id="10">10</h2>
+<pre><code class="language-Python3">plt.figure(figsize=(15,10))
+</code></pre>
+<h1 id="draws-a-figure-with-15-inches-wide-and-10-inches-tall">Draws a figure with 15 inches wide and 10 inches tall</h1>
+<p>The line <code class="language-plaintext highlighter-rouge">plt.figure(figsize=(15,10))</code> is used in Matplotlib to create a new figure for plotting with a specified size.
+<code class="language-plaintext highlighter-rouge">plt</code>: Refers to the Matplotlib library alias, which is commonly imported as import matplotlib.pyplot as plt.
+<code class="language-plaintext highlighter-rouge">figure(figsize=(15,10))</code>: Sets the figure size to 15 inches wide and 10 inches tall. This is useful for ensuring that your plots have the desired dimensions, making them clearer and more visually appealing.</p>
+
+<h2 id="11">11</h2>
+<pre><code class="language-Python3">plt.show()
+</code></pre>
+<h1 id="show-all-the-figures-plots-created">Show all the figures (plots) created</h1>
+<p>The line <code class="language-plaintext highlighter-rouge">plt.show()</code> in Matplotlib is used to display all the figures that have been created. It renders the plot to the screen, allowing you to view the visualizations you have generated. You typically call <code class="language-plaintext highlighter-rouge">plt.show()</code> after defining your plots, including any titles, labels, or legends. Without this command, the plot may not be displayed, especially in non-interactive environments. Note you would also need to have run <code class="language-plaintext highlighter-rouge">%matplotlib inline</code> which is a magic command used in Jupyter notebooks to enable the inline display of Matplotlib plots. Make sure to run this command at the beginning of your notebook to activate inline plotting.</p>
+
+<h2 id="12">12</h2>
+<pre><code class="language-Python3">df[['X', 'Y']].corr()
+</code></pre>
+<h1 id="calculate-pearson-correlation-between-x-and-y-columns-of-data">Calculate Pearson correlation between X and Y columns of data</h1>
+<p>code snippet <code class="language-plaintext highlighter-rouge">df[['X', 'Y']].corr()</code> calculates the correlation matrix between the columns X and Y in the DataFrame df. <code class="language-plaintext highlighter-rouge">df[['X', 'Y']]</code>: This selects the columns X and Y from the DataFrame. .corr(): This method computes the Pearson correlation coefficients, which measure the linear relationship between the selected columns. The result will be a 2x2 matrix showing the correlation values between X and Y, as well as each column’s correlation with itself (which is always 1).</p>
+
+<h2 id="13">13</h2>
+<pre><code class="language-Python3">plt.pie(category_counts, labels=category_counts.index, autopct='%1.1f%%')
+</code></pre>
+<h1 id="draws-a-pie-chart-visualizing-proportions-of-each-category">Draws a pie chart visualizing proportions of each category</h1>
+<p>The line plt.pie(category_counts, labels=category_counts.index, autopct=’%1.1f%%’) creates a pie chart using Matplotlib. Here’s a breakdown:</p>
+
+<p><code class="language-plaintext highlighter-rouge">category_counts</code>: This should be a Series or array containing the data for the pie chart (e.g., counts of categories).
+<code class="language-plaintext highlighter-rouge">labels=category_counts.index</code>: Sets the labels for each slice of the pie to the index of the category_counts.
+<code class="language-plaintext highlighter-rouge">autopct='%1.1f%%'</code>: Formats the labels to show the percentage with one decimal place.
+This generates a pie chart visualizing the proportions of each category. The <code class="language-plaintext highlighter-rouge">autopct='%1.1f%%'</code> parameter in the <code class="language-plaintext highlighter-rouge">plt.pie()</code> function specifies the format for displaying the percentage values on the pie chart slices. %1.1f: This part formats the percentage as a floating-point number with one digit before the decimal and one digit after the decimal point (e.g., 25.0).
+%%: This represents the literal percent sign % in the output. So, each slice of the pie will show its percentage with one decimal place, like 25.0%.</p>
+
+<h2 id="more-coming-soon">More coming soon…</h2>
 <pre><code class="language-Python3">..
 </code></pre>
-<p>..</p>
-
-<h3 id="-1">..</h3>
-<pre><code class="language-Python3">..
-</code></pre>
-<p>..</p>
-
-<h3 id="-2">..</h3>
-<pre><code class="language-Python3">..
-</code></pre>
-<p>..</p>
-
-<h3 id="-3">..</h3>
-<pre><code class="language-Python3">..
-</code></pre>
-<p>..</p>
-
-<h3 id="-4">..</h3>
-<pre><code class="language-Python3">..
-</code></pre>
-<p>..</p>
-
-<h3 id="-5">..</h3>
-<pre><code class="language-Python3">..
-</code></pre>
-<p>..</p>
-
-<h3 id="-6">..</h3>
-<pre><code class="language-Python3">..
-</code></pre>
-<p>..</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Pandas Read a CSV file using pandas into a dataframe import pandas as pd df = pd.read_csv(‘data-file.csv’) This method read_csv() reads the data-file.csv using pandas (pd) into a dataframe object. A dataframe object is similar to table with rows and columns but with lot more advanced data analysis and capabilities.]]></summary></entry><entry><title type="html">DDOF - Delta Degrees of Freedom</title><link href="http://localhost:4000/2024/09/22/ddof.html" rel="alternate" type="text/html" title="DDOF - Delta Degrees of Freedom" /><published>2024-09-22T15:40:00-07:00</published><updated>2024-09-22T15:40:00-07:00</updated><id>http://localhost:4000/2024/09/22/ddof</id><content type="html" xml:base="http://localhost:4000/2024/09/22/ddof.html"><![CDATA[<p>Bessel’s correction - Delta Degrees of Freedom ddof=1 or using n-1 - why do we use n-1 ?</p>
+<h1>..</h1>
+<p>..</p>]]></content><author><name></name></author><summary type="html"><![CDATA[We are using these alias in the reference sheet below]]></summary></entry><entry><title type="html">DDOF - Delta Degrees of Freedom</title><link href="http://localhost:4000/2024/09/22/ddof.html" rel="alternate" type="text/html" title="DDOF - Delta Degrees of Freedom" /><published>2024-09-22T15:40:00-07:00</published><updated>2024-09-22T15:40:00-07:00</updated><id>http://localhost:4000/2024/09/22/ddof</id><content type="html" xml:base="http://localhost:4000/2024/09/22/ddof.html"><![CDATA[<p>Bessel’s correction - Delta Degrees of Freedom ddof=1 or using n-1 - why do we use n-1 ?</p>
 
 <p>Numpy assume DDOF = 0 as default.
 Pandas assume DDOF = 1 as default.</p>
