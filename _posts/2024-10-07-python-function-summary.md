@@ -27,8 +27,8 @@ import seaborn as sns
 - [plt.show()](#11)
 - [df[['X', 'Y']].corr()](#12)
 - [plt.pie(category_counts, labels=category_counts.index, autopct='%1.1f%%')](#13)
-- [...](#Z)
-- [...](#Z)
+- [my_dataframe["score"].std()](#14)
+- [np.std(my_dataframe["score"], ddof=1)](#15)
 
 ## 1 
 ```Python3
@@ -54,10 +54,13 @@ By default, dropna() will drop any row that has at least one null value in any c
 
 ## 4 
 ```Python3
-plt.hist(df['column_name'])
+plt.hist(df['column_name'], bins=np.arange(100,130,10))
 ```
 # Create a histogram plot
 The plt.hist() function in Matplotlib is used to create histograms, it takes in DataFrame an array-like object containing the values to be plotted, you can pass in a name of your column you want to plot the data in the 'column_name'.
+```plt.hist()```: This function creates a histogram.
+```df['column_name']```: This is the data to be plotted from your dataframe df
+```bins=np.arange(100,130,10)```: This argument specifies the bin edges for the histogram by generating an array [100,110,120]. It creates bins with a width of 10, starting from >=100 and ending at <130, note it does not include 130. 
 
 
 ## 5 
@@ -131,10 +134,132 @@ The line plt.pie(category_counts, labels=category_counts.index, autopct='%1.1f%%
 This generates a pie chart visualizing the proportions of each category. The ```autopct='%1.1f%%'``` parameter in the ```plt.pie()``` function specifies the format for displaying the percentage values on the pie chart slices. %1.1f: This part formats the percentage as a floating-point number with one digit before the decimal and one digit after the decimal point (e.g., 25.0).
 %%: This represents the literal percent sign % in the output. So, each slice of the pie will show its percentage with one decimal place, like 25.0%.
 
-## More coming soon... 
+## 14 
+```Python3
+my_dataframe["score"].std()
+```
+# Calculate the standard deviation of data in the "score" column of my_dataframe variable using pandas
+The ```std()``` function calculates the standard deviation of the 'score' column in the my_dataframe DataFrame. The standard deviation is a measure of how spread out the data is from the average value. By default, Pandas assumes a sample standard deviation, i.e. ddof=1.
+
+## 15
+```Python3
+np.std(my_dataframe["score"], ddof=1)
+```
+# Calculate the standard deviation of data in the "score" column of my_dataframe variable using numpy
+The ```np.std()``` function calculates the standard deviation of the 'score' column in the my_dataframe DataFrame. The standard deviation is a measure of how spread out the data is from the average value. By default, Numpy assumes a population standard deviation, so for us to calculate the sample standard deviation and get an unbiased estimate of the sample standard deviation, we can specify ddof=1 which provides an unbiased estimate of the population standard deviation from a sample. Specifying ddof=1 is also called as applying the Bessel's Correction: This correction factor is applied to adjust for the bias that occurs when calculating the sample standard deviation from a sample rather than the entire population.
+
+## 16
+```Python3
+np.var(my_dataframe["score"], ddof=1)
+```
+# Calculates the variance using NumPy
+Calculates the variance using NumPy for "Sleep_Hours" column in a DataFrame named my_dataframe. Variance is a statistical measure that quantifies the dispersion of a set of data points. A higher variance indicates that the data points are more spread out from the mean, while a lower variance indicates that the data points are more clustered around the mean. By default, Numpy assumes a population standard deviation, so for us to calculate the sample variance and get an unbiased estimate of the sample variance, we can specify ddof=1 which provides an unbiased estimate of the population variance from a sample. Specifying ddof=1 is also called as applying the Bessel's Correction: This correction factor is applied to adjust for the bias that occurs when calculating the sample variance from a sample rather than the entire population. 
+
+
+## 17
+```Python3
+my_dataframe["score"].var()
+my_dataframe["score"].var(ddof=1)
+```
+# 
+The ```var()``` function calculates the variance of the 'score' column in the my_dataframe DataFrame. The variance is a measure of how spread out the data is from the average value. By default, Pandas assumes a sample variance, i.e. ddof=1.
+
+
+
+## 18
+```Python3
+..
+```
+# np.min np.max 
+..
+
+## 19
+```Python3
+..
+```
+# range
+..
+
+## 20
+```Python3
+..
+```
+# mean
+..
+
+## 21
+```Python3
+..
+```
+# np.percentile
+..
+
+## 22
+```Python3
+..
+```
+# inter quartile range
+..
+
+## 23
+```Python3
+..
+```
+# len
+..
+
+## 24
 ```Python3
 ..
 ```
 # ..
 ..
 
+## 25
+```Python3
+..
+```
+# ..
+..
+
+## 26
+```Python3
+..
+```
+# ..
+..
+
+## 27
+```Python3
+..
+```
+# ..
+..
+
+## 28
+```Python3
+..
+```
+# ..
+..
+
+## 29
+```Python3
+..
+```
+# ..
+..
+
+## 30
+```Python3
+..
+```
+# ..
+..
+
+## More coming soon... 
+```Python3
+..
+```
+# ..
+..
