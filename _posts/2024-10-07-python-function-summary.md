@@ -170,7 +170,7 @@ The ```var()``` function calculates the variance of the 'score' column in the my
 ```Python3
 ..
 ```
-# np.min np.max 
+# np.min np.max, len 
 ..
 
 ## 19
@@ -205,61 +205,80 @@ The ```var()``` function calculates the variance of the 'score' column in the my
 ```Python3
 ..
 ```
-# len
+# quantile
 ..
 
 ## 24
 ```Python3
 ..
 ```
-# ..
+# conditional (<, <=, &) based filtering in data frame
 ..
 
 ## 25
 ```Python3
 ..
 ```
-# ..
+# .apply a function to generate a new column
 ..
 
 ## 26
 ```Python3
 ..
 ```
-# ..
+# libraries and their shortcut access
+import yfinance as yf
+import pandas as pd
+import numpy as np
+
+
 ..
 
 ## 27
 ```Python3
 ..
 ```
-# ..
+# pd.read_csv("..").set_index
 ..
 
 ## 28
 ```Python3
 ..
 ```
-# ..
+# dropna()
 ..
 
 ## 29
 ```Python3
 ..
 ```
-# ..
+# np.sqrt
 ..
 
 ## 30
 ```Python3
 ..
 ```
-# ..
+# np.mean np.std np.random.standard_t, 
 ..
 
-## More coming soon... 
+## 31
 ```Python3
 ..
 ```
-# ..
+# degrees of freedom for two sample mean, proportion
+..
+
+## 32
+```Python3
+..
+```
+# standard error for two sample mean, proportion
+..
+
+## 33
+```Python3
+..
+```
+# ols()
 ..
