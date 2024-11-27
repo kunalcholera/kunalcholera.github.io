@@ -29,6 +29,24 @@ import seaborn as sns
 - [plt.pie(category_counts, labels=category_counts.index, autopct='%1.1f%%')](#13)
 - [my_dataframe["score"].std()](#14)
 - [np.std(my_dataframe["score"], ddof=1)](#15)
+- [np.var(my_dataframe["score"], ddof=1)](#16)
+- [my_dataframe["score"].var(ddof=1)](#17)
+- [np.min(my_dataframe["score"])](#18)
+- [np.ptp(my_dataframe["score"])](#19)
+- [my_dataframe["score"].mean()](#20)
+- [np.percentile(my_dataframe["score"], 75)](#21)
+- [q3 = np.percentile(my_dataframe["score"], 75)](#22)
+- [my_dataframe["score"].quantile(0.75)](#23)
+- [my_dataframe[(my_dataframe["score"] > 50) & (my_dataframe["score"] <= 100)]](#24)
+- [my_dataframe["new_column"] = my_dataframe["score"].apply(lambda x: x**2)](#25)
+- [import yfinance as yf](#26)
+- [pd.read_csv("data.csv").set_index("Date")](#27)
+- [my_dataframe.dropna()](#28)
+- [np.sqrt(my_dataframe["score"])](#29)
+- [np.mean(my_dataframe["score"])](#30)
+- [degrees of freedom](#31)
+- [model = sm.OLS(y, X).fit()](#32)
+
 
 ## 1 
 ```Python3
@@ -161,124 +179,161 @@ Calculates the variance using NumPy for "Sleep_Hours" column in a DataFrame name
 my_dataframe["score"].var()
 my_dataframe["score"].var(ddof=1)
 ```
-# 
+# Calculates the variance using Pandas
 The ```var()``` function calculates the variance of the 'score' column in the my_dataframe DataFrame. The variance is a measure of how spread out the data is from the average value. By default, Pandas assumes a sample variance, i.e. ddof=1.
 
 
 
 ## 18
 ```Python3
-..
+np.min(my_dataframe["score"])
+np.max(my_dataframe["score"])
+len(my_dataframe["score"])
 ```
-# np.min np.max, len 
-..
+# Calculates Minimum, Maximum, and Count
+```np.min```: Finds the smallest value in the "score" column.
+```np.max```: Finds the largest value in the "score" column.
+```len```: Counts the total number of data points in the "score" column.
 
 ## 19
 ```Python3
-..
+np.ptp(my_dataframe["score"])
 ```
-# range
-..
+# Range
+The range is calculated using NumPy's ptp() function, which computes the difference between the maximum and minimum values of the "score" column. This indicates the spread of data.
 
 ## 20
 ```Python3
-..
+my_dataframe["score"].mean()
 ```
-# mean
+# Mean
+The mean() function calculates the average of the "score" column in the DataFrame. It sums all values and divides by the number of data points, providing a measure of central tendency.
+
 ..
 
 ## 21
 ```Python3
-..
+np.percentile(my_dataframe["score"], 75)
 ```
-# np.percentile
-..
+# Percentile
+The np.percentile function calculates the 75th percentile of the "score" column, identifying the value below which 75% of the data falls.
 
 ## 22
 ```Python3
-..
+q3 = np.percentile(my_dataframe["score"], 75)
+q1 = np.percentile(my_dataframe["score"], 25)
+iqr = q3 - q1
 ```
-# inter quartile range
-..
+# Interquartile Range
+The interquartile range (IQR) measures the spread of the middle 50% of the data by subtracting the 25th percentile (Q1) from the 75th percentile (Q3).
 
 ## 23
 ```Python3
-..
+my_dataframe["score"].quantile(0.75)
 ```
-# quantile
-..
+# Quantile
+The quantile function computes a specific quantile (e.g., 75th percentile) of the "score" column, equivalent to np.percentile.
 
 ## 24
 ```Python3
-..
+my_dataframe[(my_dataframe["score"] > 50) & (my_dataframe["score"] <= 100)]
 ```
-# conditional (<, <=, &) based filtering in data frame
-..
+# Conditional Filtering
+This expression filters rows where the "score" column is greater than 50 and less than or equal to 100. The & operator combines multiple conditions.
 
 ## 25
 ```Python3
-..
+my_dataframe["new_column"] = my_dataframe["score"].apply(lambda x: x**2)
 ```
-# .apply a function to generate a new column
-..
+# Apply Function to Create a New Column
+The apply method applies a custom function (e.g., squaring values) to each element of the "score" column, generating a new column.
 
 ## 26
 ```Python3
-..
-```
-# libraries and their shortcut access
 import yfinance as yf
 import pandas as pd
 import numpy as np
-
-
-..
+```
+# This code imports common libraries we need and provides a shortcut access to them
+yfinance: For financial data analysis.
+pandas: For data manipulation.
+numpy: For numerical computations.
 
 ## 27
 ```Python3
-..
+pd.read_csv("data.csv").set_index("Date")
 ```
-# pd.read_csv("..").set_index
-..
+# Read CSV and Set Index
+Reads a CSV file into a DataFrame and sets the "Date" column as the index, useful for time-series data.
 
 ## 28
 ```Python3
-..
+my_dataframe.dropna()
 ```
-# dropna()
-..
+# Drop Missing Values
+The dropna method removes rows with missing values from the DataFrame, ensuring clean data for analysis.
 
 ## 29
 ```Python3
-..
+np.sqrt(my_dataframe["score"])
 ```
-# np.sqrt
-..
+# Square Root
+The np.sqrt function computes the square root of each value in the "score" column.
 
 ## 30
 ```Python3
-..
+np.mean(my_dataframe["score"])
+np.std(my_dataframe["score"])
+np.random.standard_t(df=10, size=100)
+np.random.normal(loc=0, scale=1, size=100)
 ```
-# np.mean np.std np.random.standard_t, 
-..
-
+# Mean, Standard Deviation, and Random Numbers
+np.mean: Calculates the mean of the "score" column.
+np.std: Computes the standard deviation of the "score" column.
+np.random.standard_t: Generates random numbers from a Student's t-distribution.
+np.random.normal(loc=0, scale=1, size=100): Generates 100 random values from a standard normal (Z) distribution, with a mean (loc) of 0 and a standard deviation (scale) of 1. This distribution is commonly used for calculating Z-scores and standardizing data.
 ## 31
 ```Python3
-..
+s1, s2 = 2.5, 3.0  # Sample standard deviations
+n1, n2 = 30, 40    # Sample sizes
+
+df = ((s1**2 / n1) + (s2**2 / n2))**2 / (
+    ((s1**2 / n1)**2 / (n1 - 1)) + ((s2**2 / n2)**2 / (n2 - 1))
+)
 ```
-# degrees of freedom for two sample mean, proportion
-..
+# Degrees of Freedom for Two-Sample t-Test (Unequal Variances)
+This formula calculates the degrees of freedom for a two-sample t-test when the variances of the two samples are unequal (Welch's t-test). It accounts for the variances and sample sizes of the two groups and is a weighted approximation of the degrees of freedom. For comparing proportions between two groups, the degrees of freedom (df) typically aren't calculated explicitly because the statistical test used, such as a Z-test for proportions, does not rely on a degrees of freedom calculation. Instead, the test relies on approximations of the normal distribution. 
 
 ## 32
 ```Python3
-..
-```
-# standard error for two sample mean, proportion
-..
+import pandas as pd
+import statsmodels.api as sm
 
-## 33
-```Python3
-..
+# Example data
+data = {
+    "independent_var1": [10, 20, 30, 40, 50],
+    "independent_var2": [5, 10, 15, 20, 25],
+    "dependent_var": [15, 25, 35, 45, 55]
+}
+df = pd.DataFrame(data)
+
+# Define dependent and independent variables
+X = df[["independent_var1", "independent_var2"]]  # Independent variables
+y = df["dependent_var"]  # Dependent variable
+
+# Add a constant (intercept term) to the independent variables
+X = sm.add_constant(X)
+
+# Fit the OLS model
+model = sm.OLS(y, X).fit()
+
+# Summary of the regression
+print(model.summary())
+
 ```
-# ols()
-..
+# Linear Regression
+Adding a constant: The sm.add_constant(X) function ensures that an intercept term is included in the regression model. This is critical unless you explicitly know the intercept is zero.
+Independent variables (X): These are the predictors you include in the model.
+Dependent variable (y): The variable you're trying to predict or explain.
+Output:
+The model.summary() provides a detailed summary, including coefficients, p-values, Rsquared and other key statistics. 
