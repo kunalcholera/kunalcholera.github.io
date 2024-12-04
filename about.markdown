@@ -7,7 +7,7 @@ permalink: /about/
 
 <img src="/assets/images/kunal-profile-pic.jpeg" alt="Kunal's profile" style="float:right;width:220px;height:220px;margin: 15px;"/>
 
-Kunal has over 15 years of experience building high scale consumer and multi-billion dollar enterprise technology solutions. Kunal is a software engineer by training and has MS in Computer Science and MBA from Haas School of Business, University of California Berkeley.  He has built high performing software engienering teams in multiple countries. 
+Kunal has over 15 years of experience building high scale consumer and multi-billion dollar enterprise technology solutions. Kunal is a software engineer by training and has MS in Computer Science from USC and MBA from Haas School of Business, University of California Berkeley.  He has built high performing software engienering teams in multiple countries. 
 <p>
 Kunal currently teaches at HAAS School of Business at UC Berkeley in the following three areas of his expertise:
 <p> <b>1. Data and Decisions</b> - Using Experimentation for product development and using the power of AI - Descriptive, Predictive and Prescriptive data analytics for real life use cases. Building data strategy, data pipelines, data tracking, data tools, data governance, data ethics and handle data bias. </p> 
