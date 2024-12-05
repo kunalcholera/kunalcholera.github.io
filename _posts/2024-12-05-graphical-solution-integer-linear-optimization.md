@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Graphical optimization solution for integer linear programming
-date: 2024-12-05 15:40 -0700
+date: 2024-12-05
 ---
 
 
