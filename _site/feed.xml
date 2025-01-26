@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-26T17:30:16-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><entry><title type="html">Pandas reference sheet - UGBA-88</title><link href="http://localhost:4000/2024/10/07/python-function-summary.html" rel="alternate" type="text/html" title="Pandas reference sheet - UGBA-88" /><published>2024-10-07T20:53:00-07:00</published><updated>2024-10-07T20:53:00-07:00</updated><id>http://localhost:4000/2024/10/07/python-function-summary</id><content type="html" xml:base="http://localhost:4000/2024/10/07/python-function-summary.html"><![CDATA[<p>We are using these alias in the reference sheet below</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-26T14:45:03-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog</title><entry><title type="html">Stock Market performance vs Unemployment rate</title><link href="http://localhost:4000/2024/12/10/stock-market-performance-vs-unemployment-rate.html" rel="alternate" type="text/html" title="Stock Market performance vs Unemployment rate" /><published>2024-12-10T16:29:00-08:00</published><updated>2024-12-10T16:29:00-08:00</updated><id>http://localhost:4000/2024/12/10/stock-market-performance-vs-unemployment-rate</id><content type="html" xml:base="http://localhost:4000/2024/12/10/stock-market-performance-vs-unemployment-rate.html"><![CDATA[<title>US Unemployment Rate vs S&amp;P 500 Percentage Change</title>
+<script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+
+<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+
+<script src="https://unpkg.com/recharts@2.1.9/umd/Recharts.js"></script>
+
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+</style>
+
+<div id="root">
+
+</div>
+
+<script type="text/babel">
+        const { 
+            LineChart, 
+            Line, 
+            XAxis, 
+            YAxis, 
+            CartesianGrid, 
+            Tooltip, 
+            Legend, 
+            ResponsiveContainer 
+        } = Recharts;
+
+        const economicData = [
+            { year: 1994, unemploymentRate: 5.6, spPercentChange: 1.32 },
+            { year: 1995, unemploymentRate: 5.6, spPercentChange: 37.58 },
+            { year: 1996, unemploymentRate: 5.4, spPercentChange: 22.96 },
+            { year: 1997, unemploymentRate: 4.9, spPercentChange: 33.36 },
+            { year: 1998, unemploymentRate: 4.5, spPercentChange: 28.58 },
+            { year: 1999, unemploymentRate: 4.2, spPercentChange: 21.04 },
+            { year: 2000, unemploymentRate: 4.0, spPercentChange: -9.10 },
+            { year: 2001, unemploymentRate: 4.7, spPercentChange: -11.89 },
+            { year: 2002, unemploymentRate: 5.8, spPercentChange: -22.10 },
+            { year: 2003, unemploymentRate: 6.0, spPercentChange: 28.68 },
+            { year: 2004, unemploymentRate: 5.5, spPercentChange: 10.88 },
+            { year: 2005, unemploymentRate: 5.1, spPercentChange: 4.91 },
+            { year: 2006, unemploymentRate: 4.6, spPercentChange: 15.79 },
+            { year: 2007, unemploymentRate: 4.6, spPercentChange: 5.49 },
+            { year: 2008, unemploymentRate: 7.3, spPercentChange: -37.00 },
+            { year: 2009, unemploymentRate: 9.3, spPercentChange: 26.46 },
+            { year: 2010, unemploymentRate: 9.6, spPercentChange: 15.06 },
+            { year: 2011, unemploymentRate: 8.9, spPercentChange: 2.11 },
+            { year: 2012, unemploymentRate: 8.1, spPercentChange: 16.00 },
+            { year: 2013, unemploymentRate: 7.4, spPercentChange: 32.39 },
+            { year: 2014, unemploymentRate: 6.2, spPercentChange: 13.69 },
+            { year: 2015, unemploymentRate: 5.3, spPercentChange: 1.38 },
+            { year: 2016, unemploymentRate: 4.9, spPercentChange: 11.96 },
+            { year: 2017, unemploymentRate: 4.4, spPercentChange: 21.83 },
+            { year: 2018, unemploymentRate: 3.9, spPercentChange: -4.38 },
+            { year: 2019, unemploymentRate: 3.7, spPercentChange: 31.49 },
+            { year: 2020, unemploymentRate: 8.1, spPercentChange: 18.40 },
+            { year: 2021, unemploymentRate: 5.4, spPercentChange: 28.71 },
+            { year: 2022, unemploymentRate: 3.7, spPercentChange: -18.11 },
+            { year: 2023, unemploymentRate: 3.6, spPercentChange: 26.29 }
+        ];
+
+        function App() {
+            return (
+                <div style=>
+                    <ResponsiveContainer width="100%" height="100%">
+                        <LineChart 
+                            data={economicData}
+                            margin=
+                        >
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="year" />
+                            <YAxis
+                                yAxisId="left"
+                                label=
+                                domain={[0, 'dataMax + 2']}
+                            />
+                            <YAxis
+                                yAxisId="right"
+                                orientation="right"
+                                label=
+                                domain={['dataMin - 10', 'dataMax + 10']}
+                            />
+                            <Tooltip 
+                                formatter={(value, name) => [
+                                    `${value}%`, 
+                                    name === 'unemploymentRate' ? 'Unemployment Rate' : 'S&P 500 % Change'
+                                ]}
+                            />
+                            <Legend />
+                            <Line 
+                                yAxisId="left"
+                                type="monotone"
+                                dataKey="unemploymentRate"
+                                stroke="#FF0000"
+                                activeDot=
+                                name="Unemployment Rate"
+                            />
+                            <Line 
+                                yAxisId="right"
+                                type="monotone"
+                                dataKey="spPercentChange"
+                                stroke="#00008B"
+                                activeDot=
+                                name="S&P 500 % Change"
+                            />
+                        </LineChart>
+                    </ResponsiveContainer>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[US Unemployment Rate vs S&amp;P 500 Percentage Change]]></summary></entry><entry><title type="html">Branch and bound algorithm example</title><link href="http://localhost:4000/2024/12/05/branch-and-bound-algorithm.html" rel="alternate" type="text/html" title="Branch and bound algorithm example" /><published>2024-12-05T00:00:00-08:00</published><updated>2024-12-05T00:00:00-08:00</updated><id>http://localhost:4000/2024/12/05/branch-and-bound-algorithm</id><content type="html" xml:base="http://localhost:4000/2024/12/05/branch-and-bound-algorithm.html"><![CDATA[<style>
+   .youtube-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    } 
+</style>
+
+<p>Branch and bound algorithm example</p>
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/cEcS13Ku1i8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Graphical optimization solution for integer linear programming</title><link href="http://localhost:4000/2024/12/05/graphical-solution-integer-linear-optimization.html" rel="alternate" type="text/html" title="Graphical optimization solution for integer linear programming" /><published>2024-12-05T00:00:00-08:00</published><updated>2024-12-05T00:00:00-08:00</updated><id>http://localhost:4000/2024/12/05/graphical-solution-integer-linear-optimization</id><content type="html" xml:base="http://localhost:4000/2024/12/05/graphical-solution-integer-linear-optimization.html"><![CDATA[<style>
+   .youtube-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    } 
+</style>
+
+<p>Graphical optimization solution for integer linear programming</p>
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/ygV5sDPN_Gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pandas reference sheet - UGBA-88</title><link href="http://localhost:4000/2024/10/07/python-function-summary.html" rel="alternate" type="text/html" title="Pandas reference sheet - UGBA-88" /><published>2024-10-07T20:53:00-07:00</published><updated>2024-10-07T20:53:00-07:00</updated><id>http://localhost:4000/2024/10/07/python-function-summary</id><content type="html" xml:base="http://localhost:4000/2024/10/07/python-function-summary.html"><![CDATA[<p>We are using these alias in the reference sheet below</p>
 
 <pre><code class="language-Python3">import pandas as pd
 import matplotlib.pyplot as plt
@@ -292,22 +428,7 @@ print(model.summary())
 Independent variables (X): These are the predictors you include in the model.
 Dependent variable (y): The variable you’re trying to predict or explain.
 Output:
-The model.summary() provides a detailed summary, including coefficients, p-values, Rsquared and other key statistics.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[We are using these alias in the reference sheet below]]></summary></entry><entry><title type="html">DDOF - Delta Degrees of Freedom</title><link href="http://localhost:4000/2024/09/22/ddof.html" rel="alternate" type="text/html" title="DDOF - Delta Degrees of Freedom" /><published>2024-09-22T15:40:00-07:00</published><updated>2024-09-22T15:40:00-07:00</updated><id>http://localhost:4000/2024/09/22/ddof</id><content type="html" xml:base="http://localhost:4000/2024/09/22/ddof.html"><![CDATA[<p>Bessel’s correction - Delta Degrees of Freedom ddof=1 or using n-1 - why do we use n-1 ?</p>
-
-<p>Numpy assume DDOF = 0 as default.
-Pandas assume DDOF = 1 as default.</p>
-
-<p>Stay tuned for the youtube video of this handwritten blog post which will give you detailed context about this topic with real life example ..</p>
-
-<p><img src="/assets/images/DDOF-1.png" alt="Delta Degrees of Freedom" /></p>
-<p>
-<img src="/assets/images/DDOF-2.png" alt="Delta Degrees of Freedom" />
-<p>
-<img src="/assets/images/DDOF-3.png" alt="Delta Degrees of Freedom" />
-<p>
-<img src="/assets/images/DDOF-4.png" alt="Delta Degrees of Freedom" />
-<p>
-</p></p></p></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Bessel’s correction - Delta Degrees of Freedom ddof=1 or using n-1 - why do we use n-1 ?]]></summary></entry><entry><title type="html">EMBA22 Youtube videos by Kunal</title><link href="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html" rel="alternate" type="text/html" title="EMBA22 Youtube videos by Kunal" /><published>2024-08-05T03:00:00-07:00</published><updated>2024-08-05T03:00:00-07:00</updated><id>http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist</id><content type="html" xml:base="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html"><![CDATA[<h2 id="class-summaries-for-few-areas-below">Class summaries for few areas below</h2>
+The model.summary() provides a detailed summary, including coefficients, p-values, Rsquared and other key statistics.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[We are using these alias in the reference sheet below]]></summary></entry><entry><title type="html">EMBA22 Youtube videos by Kunal</title><link href="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html" rel="alternate" type="text/html" title="EMBA22 Youtube videos by Kunal" /><published>2024-08-05T03:00:00-07:00</published><updated>2024-08-05T03:00:00-07:00</updated><id>http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist</id><content type="html" xml:base="http://localhost:4000/mba/haas/2024/08/05/emba22-youtube-playlist.html"><![CDATA[<h2 id="class-summaries-for-few-areas-below">Class summaries for few areas below</h2>
 
 <table>
   <thead>
