@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Kunal Cholera
+title: About
 permalink: /about/
 ---
 
