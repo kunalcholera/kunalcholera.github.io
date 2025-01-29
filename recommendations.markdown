@@ -8,7 +8,7 @@ permalink: /recommendations/
 
 <img src="/assets/images/travis.jpeg" alt="Travis's profile" style="float:left;width:220px;height:220px;margin: 15px;"/>
 
-<i> Travis took in <b>UGBA-88(Data and decisions)</b> and <b>UGBA-101b (Macroeconomics)</b> with Kunal. </i>
+<i> Travis took <b>UGBA-88(Data and decisions)</b> and <b>UGBA-101b (Macroeconomics)</b> with Kunal. </i>
 <p>
 <b>Jan 27 2025</b>: I had the pleasure of being a student of, and working with, Kunal Cholera. While an econ undergrad, Kunal was my GSI for two classes. I immediately recognized that he was different from not only all other GSIs, but different from most other professors: he was incredibly passionate. I would later find out that Kunal was not only a standout GSI, but also a former big tech executive, and a talented engineer. I knew that there was a lot that I could learn from him, so I chose to befriend him. This decision turned out to be instrumental for me. Through chats and discussions I came to discover just how knowledgeable he was in every domain he expressed interest in. His instructional videos on YouTube were absolutely critical to my success at Cal, his explanations of economic concepts were succinct and easy to interpret. As a GSI, Kunal would always find time to chat about my future goals to pursue an MBA, where he offered actionable insights on how to achieve this goal.
 <p>
