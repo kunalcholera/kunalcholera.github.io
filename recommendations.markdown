@@ -4,7 +4,12 @@ nav_title: Recommendations
 title: Recommendations for Kunal
 permalink: /recommendations/
 ---
-
+<style>
+   .youtube-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    } 
+</style>
 
 <b>April 2025</b>
 
