@@ -33,3 +33,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
+
+# Security patches for transitive dependencies flagged by Dependabot
+gem "rexml", ">= 3.3.9"
+gem "webrick", ">= 1.8.2"
+gem "concurrent-ruby", ">= 1.3.7"
+gem "google-protobuf", ">= 3.25.5"
