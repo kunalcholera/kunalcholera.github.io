@@ -1,7 +1,7 @@
 ---
 layout: page
-nav_title: Recommendations
-title: Recommendations for Kunal
+nav_title: Student Reviews
+title: Student Reviews
 permalink: /recommendations/
 ---
 <style>
