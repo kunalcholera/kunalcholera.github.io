@@ -29,7 +29,19 @@ Poets and Quants for Execs - Best & Brightest Executive MBA - 2022 <br/>
 <br/>
 </div>
 
-<div class="content"> <b>Current Classes at HAAS: </b><br/>
-I am teaching Data and decisions using Python (UGBA 88, UGBA 104), Leadership Communications (EWMBA 200C), Game theory (Strategy) (EWMBA 211) to Undergraduate, Graduate and Executive programs at HAAS School of Business at Berkeley. More details about classes that I am teaching can be found <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a>
+<div class="content"> <b>Current Classes at HAAS:</b><br/>
+<i>(UGBA - Undergraduate, EWMBA - Evening Weekend MBA, XMBA - Executive MBA)</i>
+<ul>
+<li>UGBA 173 - Business Strategy</li>
+<li>EWMBA 211 - Business Strategy</li>
+<li>UGBA 88 - Data and Decisions</li>
+<li>UGBA 104 - Intro to Business Analytics</li>
+<li>UGBA 101A - Microeconomics</li>
+<li>XMBA 201B - Macroeconomics</li>
+<li>UGBA 117 - Digital Transformation with AI</li>
+<li>EWMBA 200C - Leadership Communications</li>
+<li>XMBA 200C - Leadership Communications</li>
+</ul>
+I teach these to Undergraduate, Graduate and Executive programs at HAAS School of Business at Berkeley. More details about classes that I am teaching can be found <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a>
 
 </div>
