@@ -10,3 +10,5 @@ Book a <b>complementary</b> session <a href="https://calendar.app.google/no9KZaw
 <img src="/assets/images/what-is-coaching.svg" alt="What is coaching" style="max-width:100%;"/>
 
 <p style="font-size:0.85em;color:#666;">Image credit: <a href="https://www.berkeleyeci.com/" target="_blank"><img src="https://images.squarespace-cdn.com/content/v1/5425c84de4b043ee968922d4/1555417023369-VHJUDMUSS89OZU7ZDC4M/BECI-Logo.jpg" alt="BECI logo" style="height:24px;vertical-align:middle;"/></a></p>
+
+<img src="/assets/images/roles-of-the-leader.gif" alt="Roles of the Leader: high ask, low tell coaching matrix building step by step" style="max-width:100%;"/>
