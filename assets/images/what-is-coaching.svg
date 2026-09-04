@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-140 0 1080 560" font-family="Helvetica, Arial, sans-serif">
+  <rect x="-140" y="0" width="1080" height="560" fill="#ffffff"/>
+
+  <!-- Axis lines -->
+  <line x1="400" y1="60" x2="400" y2="500" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="60" y1="280" x2="740" y2="280" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- Arrowheads -->
+  <polygon points="400,50 392,68 408,68" fill="#1a1a1a"/>
+  <polygon points="400,510 392,492 408,492" fill="#1a1a1a"/>
+  <polygon points="50,280 68,272 68,288" fill="#1a1a1a"/>
+  <polygon points="750,280 732,272 732,288" fill="#1a1a1a"/>
+
+  <!-- Axis labels -->
+  <text x="400" y="35" text-anchor="middle" font-size="30" font-weight="700" fill="#1a1a1a">High Ask</text>
+  <text x="400" y="542" text-anchor="middle" font-size="30" font-weight="700" fill="#1a1a1a">Low Ask</text>
+  <text x="30" y="280" text-anchor="end" dominant-baseline="middle" font-size="30" font-weight="700" fill="#1a1a1a">Low Tell</text>
+  <text x="770" y="280" text-anchor="start" dominant-baseline="middle" font-size="30" font-weight="700" fill="#1a1a1a">High Tell</text>
+
+  <!-- Quadrant boxes -->
+  <g stroke="#1a1a1a" stroke-width="2.5" fill="none">
+    <rect x="110" y="100" width="240" height="120" fill="#d5f5d0"/>
+    <rect x="450" y="100" width="240" height="120"/>
+    <rect x="110" y="340" width="240" height="120"/>
+    <rect x="450" y="340" width="240" height="120"/>
+  </g>
+
+  <!-- Top-left: Coach / Interrogator -->
+  <text x="230" y="155" text-anchor="middle" font-size="34" font-weight="700" fill="#1a1a1a">Coach</text>
+  <text x="230" y="185" text-anchor="middle" font-size="20" fill="#1a1a1a">Interrogator</text>
+
+  <!-- Top-right: Mentor / Micromanager -->
+  <text x="570" y="155" text-anchor="middle" font-size="34" font-weight="700" fill="#1a1a1a">Mentor</text>
+  <text x="570" y="185" text-anchor="middle" font-size="20" fill="#1a1a1a">Micromanager</text>
+
+  <!-- Bottom-left: Supporter / Disengaged -->
+  <text x="230" y="395" text-anchor="middle" font-size="34" font-weight="700" fill="#1a1a1a">Supporter</text>
+  <text x="230" y="425" text-anchor="middle" font-size="20" fill="#1a1a1a">Disengaged</text>
+
+  <!-- Bottom-right: Advisor / Dictator -->
+  <text x="570" y="395" text-anchor="middle" font-size="34" font-weight="700" fill="#1a1a1a">Advisor</text>
+  <text x="570" y="425" text-anchor="middle" font-size="20" fill="#1a1a1a">Dictator</text>
+</svg>
