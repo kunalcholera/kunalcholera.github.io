@@ -42,6 +42,6 @@ Poets and Quants for Execs - Best & Brightest Executive MBA - 2022 <br/>
 <li>EWMBA 200C - Leadership Communications</li>
 <li>XMBA 200C - Leadership Communications</li>
 </ul>
-More details about classes that I am teaching can be found <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a>
+My current classes are <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a>
 
 </div>
