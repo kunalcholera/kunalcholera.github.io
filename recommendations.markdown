@@ -2,7 +2,7 @@
 layout: page
 nav_title: Student Reviews
 title: Student Reviews
-permalink: /recommendations/
+permalink: /student-reviews/
 ---
 <style>
    .youtube-video {
