@@ -29,7 +29,7 @@ Poets and Quants for Execs - Best & Brightest Executive MBA - 2022 <br/>
 <br/>
 </div>
 
-<div class="content"> <b>Current Classes at HAAS:</b><br/>
+<div class="content"> <b>Classes I have taught at HAAS:</b><br/>
 <i>(UGBA - Undergraduate, EWMBA - Evening Weekend MBA, XMBA - Executive MBA)</i>
 <ul>
 <li>UGBA 173 - Business Strategy</li>
