@@ -1,7 +1,7 @@
 ---
 layout: page
-nav_title: Reviews
-title: Reviews
+nav_title: Student Reviews
+title: Student Reviews
 permalink: /recommendations/
 ---
 <style>
