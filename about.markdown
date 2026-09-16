@@ -29,8 +29,7 @@ Kunal is a software engineer by training and has MS in Computer Science from USC
 <li>EWMBA 200C - Leadership Communications</li>
 <li>XMBA 200C - Leadership Communications</li>
 </ul>
-<i>(UGBA - Undergraduate, EWMBA - Evening Weekend MBA, XMBA - Executive MBA)</i><br/>
-My current classes are <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a>
+<i>(UGBA - Undergraduate, EWMBA - Evening Weekend MBA, XMBA - Executive MBA).</i> My current classes are <a href="https://classes.berkeley.edu/search/class/?f%5B0%5D=sm_instructors%3AKunal%20Cholera" target="_blank"> here </a>
 
 </div>
 
