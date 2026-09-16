@@ -5,7 +5,9 @@ title: 1:1 Coaching
 permalink: /coaching/
 ---
 
-Book the <b>first complimentary</b> session <a href="https://calendar.app.google/no9KZawHFifVGWxt5" target="_blank">here</a>. Come prepared with a challenge that you want to solve together so that we can establish your goal and assess mutual fit. My coaching sessions are high ask and low tell as shown below. I offer packages and hourly flexible rates that meets everyone's ability to pay me. I've gone through rigorous training for coaching certification and I want to use my coaching time as a gift to individuals to reach their full potential. I am currently a coach in training at BECI &ndash; Berkeley Executive Coaching Institute.
+Book the <b>first complimentary</b> session <a href="https://calendar.app.google/no9KZawHFifVGWxt5" target="_blank">here</a>. Come prepared with a challenge that you want to solve together so that we can establish your goal and assess mutual fit. My coaching sessions are high ask and low tell as shown in the image below. I offer packages and hourly flexible rates that meets everyone's ability to pay me.
+<br/><br/>
+I've gone through rigorous training for coaching certification and I want to use my coaching time as a gift to individuals to reach their full potential. I am currently a coach in training at BECI &ndash; Berkeley Executive Coaching Institute.
 
 <img src="/assets/images/what-is-coaching.svg" alt="What is coaching" style="max-width:100%;"/>
 
