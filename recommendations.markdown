@@ -12,6 +12,11 @@ permalink: /student-reviews/
 </style>
 
 
+<b>Summer 2026 · Digital Transformation</b>
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/hguBjjeFYkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 <b>May 2025</b>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/L3z0DBd1-XA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
